@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 
 class DioClient {
-  static const BASE_DEV_URL = "https://10.49.120.105:1337";
+  static const BASE_DEV_URL = "http://10.49.120.105:1337";
   static BaseOptions baseOptions = BaseOptions(
     baseUrl: BASE_DEV_URL,
     connectTimeout: 30000,
